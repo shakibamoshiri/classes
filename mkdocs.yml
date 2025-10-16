@@ -1,0 +1,194 @@
+site_name: Shakiba Moshiri Classes
+
+site_url: https://classes.shakiba.net/
+
+
+theme:
+  name: material
+  direction: ltr
+  icon:
+    logo: octicons/book-16
+    favicon: assets/images/favicon.png
+
+  features:
+    - navigation.top
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.path
+    # - navigation.expand
+    - navigation.indexes
+    - navigation.footer
+    - navigation.sections
+    - header.autohide
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+
+nav:
+  - Hi:
+    - index.md
+  - Training:
+    - training/index.md
+    - Training:
+      - training/linux.md
+      - training/devops.md
+      - training/vps.md
+      - training/system.md
+      - training/coding.md
+  - Interview:
+    - interview/index.md
+    - Non-Technical:
+      - non-technical/index.md
+      - HR: 
+        - non-technical/hr/index.md
+        - non-technical/hr/general/general.md
+        - non-technical/hr/general/behavioral.md
+        - non-technical/hr/general/cfit.md
+    - Technical:
+      - technical/index.md
+      - Business:
+        - technical/business/index.md
+        - technical/business/manager.md
+        - technical/business/technical.md
+        - technical/business/bi.md
+        - technical/business/scrum.md
+      - Design:
+        - technical/design/index.md
+        - technical/design/system.md
+        - technical/design/uiux.md
+      - Operation:
+        - technical/operation/index.md
+        - technical/operation/linux.md
+        - technical/operation/devops.md
+        - technical/operation/sre.md
+      - BackEnd:
+        - technical/backend/index.md
+        - technical/backend/java.md
+        - technical/backend/php.md
+        - technical/backend/cpp.md
+      - FrontEnd:
+        - technical/frontend/index.md
+        - technical/frontend/html.md
+        - technical/frontend/css.md
+        - technical/frontend/js.md
+        - technical/frontend/typescript.md
+        - technical/frontend/reactjs.md
+        - technical/frontend/angular.md
+
+  - Schedule:
+    - schedule/index.md
+    - Schedule:
+      - schedule/test.md
+      - schedule/class.md
+      - schedule/feedback.md
+      - schedule/book.md
+  - Resume: resume/index.md
+  - Links: 
+    - links/index.md
+    - Links:
+      - links/meeting.md
+      - links/dic.md
+      - Website:
+        - links/website/index.md
+        - links/website/ats.md
+        - links/website/job.md
+        - links/website/freelance.md
+        - links/website/online-course.md
+  - Tools: 
+    - tools/index.md
+    - Tools:
+      - tools/meeting.md
+      - tools/recording.md
+      - tools/sharing.md
+      - tools/text2speech.md
+  - Bill: bill/index.md
+  - Contact: contact/index.md
+
+
+extra:
+  generator: false
+  # alternate:
+  #   - name: English
+  #     link: /en/
+  #     lang: en
+  #   - name: Persian
+  #     link: /fa/
+  #     lang: ir
+  #     direction: rtl
+  social:
+    - name: Github
+      icon: material/github
+      link: https://github.com/shakibamoshiri
+    - name: Lindedin
+      icon: material/linkedin
+      link: https://www.linkedin.com/in/shakiba-moshiri/
+    - name: Telegram
+      icon: simple/telegram
+      link: https://t.me/shakibamoshiri
+    - name: Email
+      icon: material/email
+      link: info@example.com
+
+copyright: >
+  Copyright &copy; 20XX Shakiba Moshiri
+
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - abbr
+  - admonition
+  - attr_list
+  - md_in_html
+  - footnotes
+  - def_list
+  - tables
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.magiclink
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+plugins:
+  - search
+  - git-authors
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
