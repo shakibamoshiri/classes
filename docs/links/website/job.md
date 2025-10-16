@@ -1,6 +1,6 @@
 ---
-icon: simple/workplace
+icon: simple/onlyoffice
 ---
 
-# :simple-workplace: Job
+# :simple-onlyoffice: Job
 
