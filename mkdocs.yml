@@ -28,7 +28,7 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: blue
+      primary: green
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -123,6 +123,9 @@ nav:
   - Contact: contact/index.md
 
 
+extra_css:
+  - stylesheets/extra.css
+
 extra:
   generator: false
   # alternate:
@@ -188,7 +191,7 @@ markdown_extensions:
 
 plugins:
   - search
-  - git-authors
+  # - git-authors
   - git-revision-date-localized:
       enable_creation_date: true
       type: date
