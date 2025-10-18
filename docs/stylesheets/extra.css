@@ -1,3 +1,7 @@
+.md-typeset ol li, .md-typeset ul li {
+    line-height: 1;
+}
+
 [data-md-color-primary=green] {
 
     .md-nav__link {
