@@ -48,11 +48,22 @@ nav:
   - Training:
     - training/index.md
     - Training:
-      - training/linux.md
+      - training/agile.md
+      - training/ai.md
+      - training/api.md
+      - training/bi.md
+      - training/blockchain.md
+      - training/database.md
       - training/devops.md
-      - training/vps.md
-      - training/system.md
-      - training/coding.md
+      - training/network.md
+      - training/distributed-system.md
+      - training/cloud-computing.md
+      - training/programming-language.md
+      - training/software-architecture.md
+      - training/software-design-pattern.md
+      - training/software-paradigm.md
+      - training/software-principle.md
+      - training/software-version-control.md
   - Interview:
     - interview/index.md
     - Non-Technical:
