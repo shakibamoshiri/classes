@@ -2,6 +2,10 @@
     line-height: 1;
 }
 
+.md-tabs__item--active {
+    border-bottom: 2px solid;
+}
+
 [data-md-color-primary=green] {
 
     .md-nav__link {
