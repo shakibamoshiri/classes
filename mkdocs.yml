@@ -3,6 +3,7 @@ site_name: Shakiba Moshiri Classes
 site_url: https://classes.shakiba.net/
 
 repo_url: https://github.com/shakibamoshiri/classes
+repo_name: shakibamoshiri/classes
 
 
 theme:
@@ -11,6 +12,7 @@ theme:
   icon:
     logo: octicons/book-16
     favicon: assets/images/favicon.png
+    repo: simple/git
 
   features:
     - navigation.top
