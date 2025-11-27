@@ -2,6 +2,8 @@ site_name: Shakiba Moshiri Classes
 
 site_url: https://classes.shakiba.net/
 
+repo_url: https://github.com/shakibamoshiri/classes
+
 
 theme:
   name: material
@@ -139,7 +141,7 @@ extra_css:
   - stylesheets/extra.css
 
 extra:
-  generator: false
+  generator: true
   # alternate:
   #   - name: English
   #     link: /en/
